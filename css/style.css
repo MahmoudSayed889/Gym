@@ -69,7 +69,10 @@
     {
         top: 20% !important;
     }
-
+    .navbar li.active
+    {
+        border-top: 2px solid transparent;
+    }
 }
 
 .carousel
@@ -349,7 +352,6 @@
     padding: 5rem 0rem;
     background: rgba(0,0,0, 0.5);
 }
-
 
 #footer
 {
